@@ -1,0 +1,73 @@
+
+/*--ESTILOS--*/
+body {font-family: Arial, Helvetica, sans-serif;}
+/* Inserção de dados, largura total*/
+input[type=text], input[type=password] { 
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+/* Botões */
+.buttonLog {
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+button:hover {
+  opacity: 0.8;
+}
+/*Centra a imagem e a posição do botão fechar*/
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+  position: relative;
+}
+.container {
+  padding: 16px;
+  }
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+/* Janela(background) */
+.modal {
+  display: none; /*Escondida por defeito*/
+  position: fixed; 
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%; /* Largura total */
+  height: 100%; /* Altura total */
+  overflow: auto; /* Scroll se necessário */
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0,0.4);
+  padding-top: 60px;
+}
+/* Janela */
+.modal-content {
+  background-color: #fefefe;
+  margin: 5% auto 5% auto; /* 5% do topo, 5%  da parte inferiror e centrado */
+  border: 1px solid #888;
+/*  width: 60%;  Largura, pode ser mais ou menos dependendo do tamanho da tela*/
+}
+/* Botão fechar (x) */
+.close {
+  position: absolute;
+  right: 25px;
+  top: 0;
+  color: #000;
+  font-size: 35px;
+  font-weight: bold;
+}
+.close:hover,
+.close:focus {
+  color: red;
+  cursor: pointer;
+}
