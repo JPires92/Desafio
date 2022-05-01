@@ -7,6 +7,6 @@ Foi criada uma aplicação de login, que para verificar se os dados dos utilizad
 	 - Linguagem de estilos CSS
 	 - Linguagem de programação PHP
 	 - Linguagem de programação JavaScript
-	 - Biblioteca client URL para consumir WebService
+	 - Biblioteca cURL, "Client URL", para consumir WebService
  
  - O WebService, denominado **WS**, é um WebService RESTfull desenvolvido em PHP
